@@ -1,14 +1,20 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 export class AppFooter extends Component {
-
-    render() {
-        return  (
-            <div className="layout-footer">
-                <span className="footer-text" style={{'marginRight': '5px'}}>PrimeReact</span>
-                <img src="assets/layout/images/logo.svg" alt="" width="80"/>
-                <span className="footer-text" style={{'marginLeft': '5px'}}>Theme and Layout</span>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="layout-footer">
+        <span>
+          <img src="assets/layout/images/JSG logo.png" alt="" width="30" />
+        </span>
+        <span className="footer-text" style={{ margin: "10px" }}>
+          Copyright. Gombak Jungle School.{" "}
+        </span>
+        {/* 
+        <span className="footer-text" style={{ margin: "10px" }}>
+          text here
+        </span> */}
+      </div>
+    );
+  }
 }
